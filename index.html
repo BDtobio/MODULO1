@@ -22,10 +22,11 @@
 
 <div class="profile_container">
     <p class="profile_presentation">
-        Hola soy Tobias Bustos Diaco ,tengo 20 años y soy de Argentina,Tucumán.Me meti a yo soyhenry por que me me quiero superar y gusta mucho el mundo de la programacion y en esta academia virtual vi las oportunidades ,la comunidad y el apoyo que te dan                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+        Hola soy Tobias Bustos Diaco ,tengo 20 años y soy de Argentina,Tucumán.Me meti a yo soyhenry por que me me quiero superar y gusta mucho el mundo de la programacion y en esta academia virtual vi las oportunidades ,la comunidad y el apoyo que te dan
     </p>
 </div>
 </section>
+
 
     <section class="technologies_section">
         <div class="titles">Mis Tecnologías Favoritas</div>
@@ -54,22 +55,39 @@
 
 
 
-    <section class="activities_section"> 
+    <section class="act_section"> 
         <div class="titles">Mis actividades favoritas</div>
 <div class="form-inputs">
-    <label >Título:</label>
 
-        <input  class="form-inputs_title"  type="text" required>
+  
+<div class="act_input-container">
+    <label class="act_title" >Título:</label>
+    <input  class="act_input"  type="text" required>
 
-        <label for="descripcion">Descripción:</label>
-        <textarea  class="form-inputs_description" placeholder="DESCRIPCION"></textarea required>
+   
+</div>
 
 
-            <label >URL de Imagen:</label>
-        <input 
-        class="form-inputs_image" type="url">
-        <div class="actividades-container"></div>
+<div class="act_input-container">
+
+    <label for="title" class="act_title">Descripcion:</label>
+    
+   
+       <textarea id="title" class="act_input" ></textarea>
+        
+
+        </div>
+        
+
+        <div class="act_input-container">
+            <label class="act_title">URL de Imagen:</label>
+
+        <input  class="act_input" type="url">
     </div>
+    <div class="act_button">
+    <button type="submit">CREATE ACTIVITY</button>
+    </div>
+</div>
     </section>
     
     
