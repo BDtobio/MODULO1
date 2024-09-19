@@ -48,8 +48,7 @@ function createActivity2(activity) {
 
   const contenedorCard = document.createElement("div");
   contenedorCard.classList.add("activity_card");
-
-  //activity_list
+  
 
   contenedorCard.append(titulo,descripcion, imagen);
   return contenedorCard;
@@ -57,6 +56,7 @@ function createActivity2(activity) {
 
 function listado(repository) {
   const activity_list = document.getElementById("activity_list");
+
   activity_list.innerHTML = "";
 
   const AllActivities = repository.getAllActivities();
@@ -87,4 +87,6 @@ function handler(event) {
 
 const loginboton=document.getElementById("boton");
 loginboton.addEventListener("click",handler);
+
+
 
